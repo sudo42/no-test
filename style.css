@@ -1,0 +1,138 @@
+:root {
+    --c-bg-page: #ccc;
+    --c-bg-card: #f6f6f6;
+    --c-fg: #444;
+    --c-accent: #c07;
+    --c-accent-NA: #666;
+    --c-error: #c00;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root, html, body {
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    outline: 0 none;
+}
+
+body {
+    color: var(--c-fg);
+    background: var(--c-bg-page);
+}
+
+button {
+    border: .2em solid var(--c-accent);
+    background: var(--c-bg-card);
+    color: var(--c-fg);
+    padding: .21em 1.42em;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover, button:focus {
+    background: var(--c-accent);
+    color: var(--c-bg-card);
+}
+
+main {
+    margin: 2em auto;
+    max-width: 220mm;
+}
+
+.errorMsg {
+    color: var(--c-error);
+    font-weight: bold;
+}
+
+main > section {
+    display: none;
+    margin: 1em 0;
+    padding: 1em;
+    background: var(--c-bg-card);
+}
+:root[data-active=start] main > section.sec-start { display: block; }
+:root[data-active=questions] main > section.sec-questions { display: block; }
+:root[data-active=result] main > section.sec-result { display: block; }
+
+/*
+section.sec-start {
+    text-align: center;
+} */
+
+.question {
+    margin: 1.5em 0;
+}
+/*
+.uestion::after {
+    content: " ";
+    display: block;
+    margin: 1em auto 0 auto;
+    width: 50%;
+    line-height: 0;
+    border-bottom: .1em solid var(--c-bg-page);
+} */
+
+.question fieldset {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0;
+    border: 0 none;
+}
+
+.question .q-field {
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    border: .1em solid var(--c-bg-page);
+    border-width: .1em .1em .1em 0;
+}
+.question .q-field.opt-na {
+    width: 21%;
+    flex-grow: 0;
+    border-left-width: .1em;
+}
+
+.question .q-field label {
+    white-space: wrap;
+    text-align: center;
+    padding: .5em;
+    cursor: pointer;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question .q-field label:hover {
+    background: var(--c-bg-page);
+}
+.question .q-field input:checked+label {
+    background: var(--c-accent);
+    color: var(--c-bg-card);
+}
+.question .q-field.opt-na input:checked+label {
+    background: var(--c-accent-NA);
+}
+
+.question .q-field .q-field-text {
+    text-align: center;
+}
+
+.question .q-field .q-field-input {
+    visibility: hidden;
+    position: absolute;
+    top: -.5em;
+    left: .5em;
+}
+.question .q-field .q-field-input:focus {
+    visibility: visible;
+}
+
+.sec-result header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: .5em;
+}
