@@ -16,6 +16,7 @@
     margin: 0;
     border: 0 none;
     outline: 0 none;
+    width: 100%;
 }
 
 body {
@@ -39,6 +40,8 @@ button:hover, button:focus {
 main {
     margin: 2em auto;
     max-width: 220mm;
+    min-width: 30em;
+    width: 95%;
 }
 
 .errorMsg {
