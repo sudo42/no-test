@@ -148,6 +148,7 @@ window.addEventListener('DOMContentLoaded', ()=> confPromise.then(CONF=>{
     main.appendChild(secStart)
     main.appendChild(secQs)
     main.appendChild(secResult)
+    main.appendChild(document.querySelector('footer'))
     document.querySelector('#main').replaceWith(main)
 }))
 
