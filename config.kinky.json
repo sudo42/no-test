@@ -1,0 +1,159 @@
+{
+    "_LICENSE": "Diese Konfiguations-Datei wird unter einer CC0-Lizenz (https://creativecommons.org/share-your-work/public-domain/cc0/#) zur Verfügungs gestellt. Fragen und Antworten wurden von mehreren Personen an einem gemütlichen (virtuellen) gemeinsamen Abend erarbeitet.",
+    "strings":{
+        "noAnswer": "Keine Antwort",
+        "yes": "Ja",
+        "no": "Nein",
+        "maybe": "Vielleicht",
+        "clickToStart": "Klicke auf START um zu beginnen …",
+        "btnStart": "START",
+        "btnFinish": "Fertig! ^^",
+        "errMissingFields": "Bitte beantworte alle Fragen",
+        "resultTitlePrefix": "Du bist: "
+    },
+    "questions": [
+        {
+            "type": "scale-5",
+            "text": "Magst du Fesseln?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du gefesselt werden?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du Rohrstöcke?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du dich nicht auf eine Rolle festlegen?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du Rituale?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du LaTeX?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du Latex?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du Leder?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du gefesselt werden?"
+        },{
+            "type": "scale-5",
+            "text": "Bist du masochistisch?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du Schmerzen?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du schlechte Wortwitze?"
+        },{
+            "type": "scale-5",
+            "text": "Verhältst du dich gerne wie ein Haustier?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du es wenn dein*e Partnerperson dich als Essen bezeichnet?"
+        },{
+            "type": "scale-5",
+            "text": "Singst du gerne (schief)?"
+        },{
+            "type": "scale-5",
+            "text": "Wirst du gern dazu ermutigt, den Mund zu halten?"
+        },{
+            "type": "scale-5",
+            "text": "Ermutigst du andere gerne einvernehmlich mit Wort und Tat dazu, den Mund zu halten?"
+        },{
+            "type": "scale-5",
+            "text": "Knetest du gerne?"
+        },{
+            "type": "scale-5",
+            "text": "Wirst du gerne durchgeknetet?"
+        },{
+            "type": "scale-5",
+            "text": "Schlägst du lieber mit einem Kochlöffel oder einer Bratpfanne?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du es gern heiß (lies: Wachs)?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du es lieber kalt (lies: Eis)?"
+        },{
+            "type": "scale-5",
+            "text": "Magst du es diesen Test auszufüllen?"
+        }
+    ],
+    "results": [
+        {
+            "title": "Milchreis",
+            "description": "Du bist süß, lecker, weich, und passt zu einer Vielzahl an Gewürzen."
+        },{
+            "title": "Kürbiscurry",
+            "description": "Überraschend lecker, freundlich und vielseitig!"
+        },{
+            "title": "Mandelkrokant",
+            "description": "Allergikerfreundlich, süß, und mit Biss!"
+        },{
+            "title": "Chilli-Limettentorte",
+            "description": "Mal scharf, mal sauer, und immer schnell fertig."
+        },{
+            "title": "Zuckerwatte",
+            "description": "Siehst toll aus, bist flauschig und bei Wasserkontakt schnell weg."
+        },{
+            "title": "Rohkostteller",
+            "description": "Kunterbunt, knackig und definitiv voller wertvoller Inhalte!"
+        },{
+            "title": "Misosuppe",
+            "description": "Gut für die Seele, warm im Charakter und ein Mysterium in der Zusammensetzung."
+        },{
+            "title": "Roggenbrot",
+            "description": "Dicht, voll Korn und träge."
+        },{
+            "title": "Wirsingsuntereinander",
+            "description": "Traditionell, stets unterschätzt und immer die größte Freude zum Saisonstart!"
+        },{
+            "title": "Thüringer Klöße",
+            "description": "Definitiv nicht vegan, immer gut zu hören und schwer nur zu vergessen."
+        },{
+            "title": "Brokkolisuppe",
+            "description": "Grün nicht nur hinter den Ohren, gut gewürzt und immer geschmeidig."
+        },{
+            "title": "ein belgisches Quadrupeltrappistenbier",
+            "description": "Vermutlich findet man dich in Aachen - du bist stets sanft und angenehm."
+        },{
+            "title": "eine Bamischeibe",
+            "description": "Toll, dass es dich gibt - feste Schale, weicherer Kern, immer eine Sünde wert."
+        },{
+            "title": "eine Streuselbrötchen",
+            "description": "Echt lokalpatriotisch, immer ein bisschen süß und ein absoluter Morgenmensch!"
+        },{
+            "title": "Spaghetti mit Bärlauchpesto",
+            "description": "Dich erwischt man nur mit viel Glück, du machst andere noch Tage später glücklich, aber Kleidung hat Angst vor dir."
+        },{
+            "title": "Ingwerkeks",
+            "description": "Scharf, süß, und gut fürs Immunsystem."
+        },{
+            "title": "Frühlingsrisotto",
+            "description": "Andere machst du glücklich, dich gibts vegan und nicht vegan und du hältst dich nicht an Regeln, dich gibts das ganze Jahr."
+        },{
+            "title": "Ratatouille",
+            "description": "Herrlich bunt - und dazu noch gesund. Was für ein Fund!"
+        },{
+            "title": "Chilli",
+            "description": "Du bist komplex, nicht still, aber tief, und kommst mit fast allem gut aus."
+        },{
+            "title": "Bananenbrot",
+            "description": "Gold aus Stroh quasi, überall beliebt und wir könnten nicht ohne dich."
+        },{
+            "title": "Erdbeerkäse",
+            "description": "Gesund, beliebt bei Kindern und im Fernsehen."
+        },{
+            "title": "Tomatenbutter",
+            "description": "Wenig Aufwand, viel Geschmack, schmaler Geldbeutel - na, findeste dich wieder?"
+        },{
+            "title": "Kräuterfaltenbrot",
+            "description": "Nicht so alt, wie du aussiehst, kunstvoll zurechtgemacht und verträgst dich mit fast allem."
+        }
+
+    ]
+}
