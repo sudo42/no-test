@@ -1,0 +1,35 @@
+{
+    "strings":{
+        "noAnswer": "Keine Antwort",
+        "yes": "Ja",
+        "no": "Nein",
+        "maybe": "Vielleicht",
+        "clickToStart": "Klicke auf START um zu beginnen …",
+        "btnStart": "START",
+        "btnFinish": "Fertig! ^^",
+        "errMissingFields": "Bitte beantworte alle Fragen",
+        "resultTitlePrefix": "Du bist: "
+    },
+    "questions": [
+        {
+            "type": "yes-no",
+            "text": "Ich mag Vanilleeis."
+        },{
+            "type": "scale-5",
+            "text": "Blau ist eine gute Farbe."
+        }
+    ],
+    "results": [
+        {
+            "title": "Milchreis",
+            "description": "Du bist süß, lecker, weich, und passt zu einer Vielzahl an Gewürzen."
+        },{
+            "title": "Brot",
+            "description": "Du bist toll! Passend zu allen Gelegenheiten."
+        },{
+            "title": "Mandelkrokant",
+            "description": "Nicht was für jede*n: Süß, aber mit Biss."
+        }
+
+    ]
+}
